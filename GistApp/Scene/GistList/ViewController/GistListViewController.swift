@@ -1,6 +1,6 @@
 //
 //  GistListViewController.swift
-//  LuizaLabsTest
+//  GistApp
 //
 //  Created by Matheus Ramos on 21/05/24.
 //

@@ -1,6 +1,6 @@
 //
 //  GistDetailViewModelTests.swift
-//  LuizaLabsTestTests
+//  GistAppTests
 //
 //  Created by Matheus Ramos on 22/05/24.
 //

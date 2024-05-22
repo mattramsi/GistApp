@@ -1,6 +1,6 @@
 //
-//  LuizaLabsTestSnapshotTests.swift
-//  LuizaLabsTestSnapshotTests
+//  GistAppSnapshotTests.swift
+//  GistAppSnapshotTests
 //
 //  Created by Matheus Ramos on 22/05/24.
 //

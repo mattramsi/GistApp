@@ -1,6 +1,6 @@
 //
 //  CoordinatorGitDetailFlowController.swift
-//  LuizaLabsTest
+//  GistApp
 //
 //  Created by Matheus Ramos on 22/05/24.
 //
