@@ -1,6 +1,6 @@
 # GistApp
 
-We used ViewCode using UIKit.
+I used ViewCode using UIKit.
 Arch selected was MVVM-C, where we opted to inject the coordinator on VM to easier our unit tests and make the view as dummy as possible.
 
 Third Libraries
