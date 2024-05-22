@@ -11,8 +11,6 @@
 		173807E92BFD67DA007A8899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173807E82BFD67DA007A8899 /* Assets.xcassets */; };
 		173807EC2BFD67DA007A8899 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 173807EB2BFD67DA007A8899 /* Base */; };
 		173807F72BFD67DA007A8899 /* GistListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173807F62BFD67DA007A8899 /* GistListViewModelTests.swift */; };
-		173808012BFD67DA007A8899 /* LuizaLabsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808002BFD67DA007A8899 /* LuizaLabsTestUITests.swift */; };
-		173808032BFD67DA007A8899 /* LuizaLabsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808022BFD67DA007A8899 /* LuizaLabsTestUITestsLaunchTests.swift */; };
 		173808112BFD7FEB007A8899 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808102BFD7FEB007A8899 /* Coordinator.swift */; };
 		173808132BFD8518007A8899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808122BFD8518007A8899 /* SceneDelegate.swift */; };
 		173808162BFD8647007A8899 /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808152BFD8647007A8899 /* Gist.swift */; };
@@ -29,25 +27,17 @@
 		173808302BFD98ED007A8899 /* GitDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1738082F2BFD98ED007A8899 /* GitDetailCoordinator.swift */; };
 		173808322BFD9902007A8899 /* GistListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808312BFD9902007A8899 /* GistListCoordinator.swift */; };
 		173808342BFDA273007A8899 /* GistDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808332BFDA272007A8899 /* GistDetailViewModelTests.swift */; };
-		1738084A2BFDA892007A8899 /* LuizaLabsTestSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808492BFDA892007A8899 /* LuizaLabsTestSnapshotTests.swift */; };
+		1738084A2BFDA892007A8899 /* GistAppSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808492BFDA892007A8899 /* GistAppSnapshotTests.swift */; };
 		173808522BFDA8AA007A8899 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 173808512BFDA8AA007A8899 /* SnapshotTesting */; };
 		173808542BFDA90B007A8899 /* SnapshotTesting+AssertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808532BFDA90B007A8899 /* SnapshotTesting+AssertHelper.swift */; };
 		173808582BFDAEC5007A8899 /* GitListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808572BFDAEC5007A8899 /* GitListFactory.swift */; };
 		1738085A2BFDAF79007A8899 /* GistDetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173808592BFDAF79007A8899 /* GistDetailFactory.swift */; };
 		25D51234FB38F07EF9A4F8FE /* Pods_GistAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F6503F00DBAA6149486C2E /* Pods_GistAppTests.framework */; };
-		D6801140E640E07920DF5810 /* Pods_GistApp_GistAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C905E033657871DF155916 /* Pods_GistApp_GistAppUITests.framework */; };
 		ED1BB1D62CE2B8F80E5DA256 /* Pods_GistApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A9E523F85F1454F1980E24 /* Pods_GistApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		173807F32BFD67DA007A8899 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 173807D42BFD67D9007A8899 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 173807DB2BFD67D9007A8899;
-			remoteInfo = LuizaLabsTest;
-		};
-		173807FD2BFD67DA007A8899 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 173807D42BFD67D9007A8899 /* Project object */;
 			proxyType = 1;
@@ -71,9 +61,6 @@
 		173807ED2BFD67DA007A8899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		173807F22BFD67DA007A8899 /* GistAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		173807F62BFD67DA007A8899 /* GistListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistListViewModelTests.swift; sourceTree = "<group>"; };
-		173807FC2BFD67DA007A8899 /* GistAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		173808002BFD67DA007A8899 /* LuizaLabsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizaLabsTestUITests.swift; sourceTree = "<group>"; };
-		173808022BFD67DA007A8899 /* LuizaLabsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizaLabsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		173808102BFD7FEB007A8899 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		173808122BFD8518007A8899 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		173808152BFD8647007A8899 /* Gist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
@@ -91,7 +78,7 @@
 		173808312BFD9902007A8899 /* GistListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistListCoordinator.swift; sourceTree = "<group>"; };
 		173808332BFDA272007A8899 /* GistDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistDetailViewModelTests.swift; sourceTree = "<group>"; };
 		173808472BFDA892007A8899 /* GistAppSnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistAppSnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		173808492BFDA892007A8899 /* LuizaLabsTestSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizaLabsTestSnapshotTests.swift; sourceTree = "<group>"; };
+		173808492BFDA892007A8899 /* GistAppSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistAppSnapshotTests.swift; sourceTree = "<group>"; };
 		173808532BFDA90B007A8899 /* SnapshotTesting+AssertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnapshotTesting+AssertHelper.swift"; sourceTree = "<group>"; };
 		173808572BFDAEC5007A8899 /* GitListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitListFactory.swift; sourceTree = "<group>"; };
 		173808592BFDAF79007A8899 /* GistDetailFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistDetailFactory.swift; sourceTree = "<group>"; };
@@ -129,14 +116,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		173807F92BFD67DA007A8899 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6801140E640E07920DF5810 /* Pods_GistApp_GistAppUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		173808442BFDA892007A8899 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,9 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				173807DE2BFD67D9007A8899 /* GistApp */,
-				173807F52BFD67DA007A8899 /* LuizaLabsTestTests */,
-				173807FF2BFD67DA007A8899 /* LuizaLabsTestUITests */,
-				173808482BFDA892007A8899 /* LuizaLabsTestSnapshotTests */,
+				173807F52BFD67DA007A8899 /* GistAppTests */,
+				173808482BFDA892007A8899 /* GistAppSnapshotTests */,
 				173807DD2BFD67D9007A8899 /* Products */,
 				2A9C72A896467E292C7A8B70 /* Pods */,
 				E99BC6E99D0C32CA4C561693 /* Frameworks */,
@@ -166,7 +144,6 @@
 			children = (
 				173807DC2BFD67D9007A8899 /* GistApp.app */,
 				173807F22BFD67DA007A8899 /* GistAppTests.xctest */,
-				173807FC2BFD67DA007A8899 /* GistAppUITests.xctest */,
 				173808472BFDA892007A8899 /* GistAppSnapshotTests.xctest */,
 			);
 			name = Products;
@@ -186,22 +163,13 @@
 			path = GistApp;
 			sourceTree = "<group>";
 		};
-		173807F52BFD67DA007A8899 /* LuizaLabsTestTests */ = {
+		173807F52BFD67DA007A8899 /* GistAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				173807F62BFD67DA007A8899 /* GistListViewModelTests.swift */,
 				173808332BFDA272007A8899 /* GistDetailViewModelTests.swift */,
 			);
-			path = LuizaLabsTestTests;
-			sourceTree = "<group>";
-		};
-		173807FF2BFD67DA007A8899 /* LuizaLabsTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				173808002BFD67DA007A8899 /* LuizaLabsTestUITests.swift */,
-				173808022BFD67DA007A8899 /* LuizaLabsTestUITestsLaunchTests.swift */,
-			);
-			path = LuizaLabsTestUITests;
+			path = GistAppTests;
 			sourceTree = "<group>";
 		};
 		1738080F2BFD7FD9007A8899 /* Protocols */ = {
@@ -346,13 +314,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		173808482BFDA892007A8899 /* LuizaLabsTestSnapshotTests */ = {
+		173808482BFDA892007A8899 /* GistAppSnapshotTests */ = {
 			isa = PBXGroup;
 			children = (
-				173808492BFDA892007A8899 /* LuizaLabsTestSnapshotTests.swift */,
+				173808492BFDA892007A8899 /* GistAppSnapshotTests.swift */,
 				173808532BFDA90B007A8899 /* SnapshotTesting+AssertHelper.swift */,
 			);
-			path = LuizaLabsTestSnapshotTests;
+			path = GistAppSnapshotTests;
 			sourceTree = "<group>";
 		};
 		173808552BFDAEA8007A8899 /* Factory */ = {
@@ -443,26 +411,6 @@
 			productReference = 173807F22BFD67DA007A8899 /* GistAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		173807FB2BFD67DA007A8899 /* GistAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1738080C2BFD67DA007A8899 /* Build configuration list for PBXNativeTarget "GistAppUITests" */;
-			buildPhases = (
-				E79FDBE782B6083A091DBA1C /* [CP] Check Pods Manifest.lock */,
-				173807F82BFD67DA007A8899 /* Sources */,
-				173807F92BFD67DA007A8899 /* Frameworks */,
-				173807FA2BFD67DA007A8899 /* Resources */,
-				BC4AB71873C51E3086AEFA71 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				173807FE2BFD67DA007A8899 /* PBXTargetDependency */,
-			);
-			name = GistAppUITests;
-			productName = LuizaLabsTestUITests;
-			productReference = 173807FC2BFD67DA007A8899 /* GistAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		173808462BFDA892007A8899 /* GistAppSnapshotTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1738084D2BFDA892007A8899 /* Build configuration list for PBXNativeTarget "GistAppSnapshotTests" */;
@@ -501,10 +449,6 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = 173807DB2BFD67D9007A8899;
 					};
-					173807FB2BFD67DA007A8899 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 173807DB2BFD67D9007A8899;
-					};
 					173808462BFDA892007A8899 = {
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = 173807DB2BFD67D9007A8899;
@@ -529,7 +473,6 @@
 			targets = (
 				173807DB2BFD67D9007A8899 /* GistApp */,
 				173807F12BFD67DA007A8899 /* GistAppTests */,
-				173807FB2BFD67DA007A8899 /* GistAppUITests */,
 				173808462BFDA892007A8899 /* GistAppSnapshotTests */,
 			);
 		};
@@ -546,13 +489,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		173807F02BFD67DA007A8899 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		173807FA2BFD67DA007A8899 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -608,23 +544,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GistApp/Pods-GistApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC4AB71873C51E3086AEFA71 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GistApp-GistAppUITests/Pods-GistApp-GistAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GistApp-GistAppUITests/Pods-GistApp-GistAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GistApp-GistAppUITests/Pods-GistApp-GistAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BF807715F8DFB8F0A37150A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -641,28 +560,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GistAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E79FDBE782B6083A091DBA1C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GistApp-GistAppUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -706,21 +603,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		173807F82BFD67DA007A8899 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				173808032BFD67DA007A8899 /* LuizaLabsTestUITestsLaunchTests.swift in Sources */,
-				173808012BFD67DA007A8899 /* LuizaLabsTestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		173808432BFDA892007A8899 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				173808542BFDA90B007A8899 /* SnapshotTesting+AssertHelper.swift in Sources */,
-				1738084A2BFDA892007A8899 /* LuizaLabsTestSnapshotTests.swift in Sources */,
+				1738084A2BFDA892007A8899 /* GistAppSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,11 +619,6 @@
 			isa = PBXTargetDependency;
 			target = 173807DB2BFD67D9007A8899 /* GistApp */;
 			targetProxy = 173807F32BFD67DA007A8899 /* PBXContainerItemProxy */;
-		};
-		173807FE2BFD67DA007A8899 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 173807DB2BFD67D9007A8899 /* GistApp */;
-			targetProxy = 173807FD2BFD67DA007A8899 /* PBXContainerItemProxy */;
 		};
 		1738084C2BFDA892007A8899 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -885,7 +768,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BKK27272P7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LuizaLabsTest/Info.plist;
+				INFOPLIST_FILE = GistApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -895,7 +778,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheusramos.LuizaLabsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheusramos.GistApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -913,7 +796,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BKK27272P7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LuizaLabsTest/Info.plist;
+				INFOPLIST_FILE = GistApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -923,7 +806,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheusramos.LuizaLabsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheusramos.GistApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -970,44 +853,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GistApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GistApp";
-			};
-			name = Release;
-		};
-		1738080D2BFD67DA007A8899 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9E67FCFD73086DA37E1A534 /* Pods-GistApp-GistAppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BKK27272P7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheusramos.LuizaLabsTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LuizaLabsTest;
-			};
-			name = Debug;
-		};
-		1738080E2BFD67DA007A8899 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B6817D3A0BC16C752EEF3A3 /* Pods-GistApp-GistAppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BKK27272P7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matheusramos.LuizaLabsTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LuizaLabsTest;
 			};
 			name = Release;
 		};
@@ -1075,15 +920,6 @@
 			buildConfigurations = (
 				1738080A2BFD67DA007A8899 /* Debug */,
 				1738080B2BFD67DA007A8899 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1738080C2BFD67DA007A8899 /* Build configuration list for PBXNativeTarget "GistAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1738080D2BFD67DA007A8899 /* Debug */,
-				1738080E2BFD67DA007A8899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

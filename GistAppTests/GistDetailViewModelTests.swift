@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import LuizaLabsTest
+@testable import GistApp
 
 final class GistDetailViewModelTests: XCTestCase {
 

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import LuizaLabsTest
+@testable import GistApp
 
 private class MockPublicGistsProvider: PublicGistsProvider {
     func fetchPublicGists(page: Int, completion: @escaping (Result<[Gist], NetworkError>) -> Void) {

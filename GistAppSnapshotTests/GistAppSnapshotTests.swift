@@ -7,7 +7,7 @@
 
 import SnapshotTesting
 import XCTest
-@testable import LuizaLabsTest
+@testable import GistApp
 
 private class GistListCoordinatorSpy: GistListCoordinatorProtocol {
     var showGistDetailInvoked = false
@@ -63,7 +63,7 @@ private class MockPublicGistsProvider: PublicGistsProvider {
     }
 }
 
-final class LuizaLabsTestSnapshotTests: XCTestCase {
+final class GistAppSnapshotTests: XCTestCase {
 
     func test_git_list_view_controller() {
         let coordinator = GistListCoordinatorSpy()
