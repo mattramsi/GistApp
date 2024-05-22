@@ -15,11 +15,14 @@ final class PublicGistsRepository: PublicGistsProvider {
     // MARK: - Properties
 
     private let baseURL: URL
+    private let session: URLSession
 
     // MARK: - Initialization
 
-    init(baseURL: URL = URL(string: "https://api.github.com/gists/public")!) {
+    init(baseURL: URL = URL(string: "https://api.github.com/gists/public")!,
+         session: URLSession = .shared) {
         self.baseURL = baseURL
+        self.session = session
     }
 
     // MARK: - Public Methods
@@ -35,7 +38,7 @@ final class PublicGistsRepository: PublicGistsProvider {
 
         let request = URLRequest(url: url)
 
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+        let task = session.dataTask(with: request) { data, response, error in
             if let error = error {
                 print("Network error: \(error.localizedDescription)")
                 completion(.failure(.unknownError))
